@@ -1,21 +1,11 @@
-<!--
-═══════════════════════════════════════════════════════════════════
-  README de perfil — darlanvelozo
-  Tema: Tokyo Night  ·  Idioma: PT-BR
-  AJUSTES NECESSÁRIOS (procure por "AJUSTE" abaixo):
-    1. LinkedIn  → https://www.linkedin.com/in/darlan-velozo-81b52020a/
-    2. E-mail    → darlanveloso14@gmail.com 
-═══════════════════════════════════════════════════════════════════
--->
-
 <!-- HEADER -->
 <a href="#">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Darlan%20Velozo&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%E2%80%A2%20IA%20%26%20Automa%C3%A7%C3%A3o&descAlignY=56&descSize=18" alt="Darlan Velozo" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Darlan%20Velozo&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%E2%80%A2%20Automa%C3%A7%C3%A3o%20%26%20Integra%C3%A7%C3%B5es&descAlignY=56&descSize=18" alt="Darlan Velozo" />
 </a>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&color=00D9FF&center=true&vCenter=true&width=720&lines=Full+Stack+Developer+%E2%80%A2+Python%2FDjango+%E2%80%A2+Next.js;IA+aplicada%3A+bots%2C+visão+computacional+e+extra%C3%A7%C3%A3o;Integra%C3%A7%C3%B5es+via+API+%E2%80%A2+CRM+%E2%80%A2+Marketing+Automation;Transformando+processos+em+fluxos+inteligentes" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&color=00D9FF&center=true&vCenter=true&width=760&lines=Full+Stack+Developer+%E2%80%A2+Python%2FDjango+%E2%80%A2+Next.js;Automa%C3%A7%C3%A3o+e+integra%C3%A7%C3%B5es+em+produ%C3%A7%C3%A3o;IA+aplicada%3A+bots%2C+vis%C3%A3o+computacional+e+extra%C3%A7%C3%A3o;Django+desde+2018+%E2%80%94+e+ainda+em+produ%C3%A7%C3%A3o+hoje" alt="Typing SVG" />
   </a>
 </p>
 
@@ -27,78 +17,103 @@
 name:     "Darlan Velozo"
 role:     "Full Stack Developer (Pleno)"
 location: "Teresina, Piauí — Brasil 🇧🇷"
+since:    "2018 — primeiro certificado em Django no IFPI, aos 15 anos"
 focus:
+  - "Automação de operações e integrações de API em produção"
   - "IA aplicada a produto (chatbots, Vision/GPT, validação documental)"
-  - "Integrações via API & automação de processos"
-  - "CRM, Marketing Automation e funis de conversão"
-  - "Desenvolvimento Full Stack — Python/Django, React/Next.js, Node.js"
-stack_atual: "Django · FastAPI · Next.js · PostgreSQL · OpenAI"
-mindset:  "Código limpo, processos otimizados e resultados mensuráveis"
+  - "CRM, cobrança e funis de conversão"
+  - "Full Stack — Python/Django, React/Next.js, Node.js"
+stack_atual: "Django · DRF · FastAPI · Next.js · PostgreSQL · OpenAI"
+mindset:  "Medir antes de decidir. Documentar o que não é óbvio."
 ```
 
-- 🤖 Construindo **soluções de IA aplicada**: bots de vendas no WhatsApp, validação de documentos com Vision/GPT e APIs conversacionais
-- 🔗 Forte atuação em **integrações de API** e automação de fluxos operacionais (CRM, cobrança, billing)
-- 🌱 Sempre estudando **arquiteturas escaláveis** e novas tecnologias
-- 💡 Curto unir **estratégia de negócio + engenharia** para entregar valor mensurável
-- 🕷️ Experiência também com **web scraping** e mineração de dados em larga escala
+Construo e opero os sistemas que sustentam a operação de um **provedor de
+internet regional** — a parte que não pode cair. Isso significa integrar
+**três instâncias independentes de ERP**, automatizar cobrança que mexe com
+dinheiro de cliente, e manter no ar serviço que a operação usa o dia inteiro.
+
+Comecei com Django em 2018, no primeiro ano do curso técnico. **Continuo com
+Django em produção hoje** — num mercado que troca de framework a cada dois anos,
+oito anos na mesma stack é profundidade, não inércia.
 
 ---
 
-## 🛠️ Stack & Ferramentas
+## 🎯 O que já entreguei
 
-### 💻 Linguagens
+> Resultados medidos, em sistemas que estão no ar.
+
+| Entrega | Resultado |
+|:--|:--|
+| **Gateway de API corporativo** | Substituiu uma integração legada **sem controle de acesso**, cujo código estava versionado em repositório público com credenciais em texto puro. Hoje: token por consumidor em hash, escopo por rota, rate limit, log de toda chamada e trava de idempotência |
+| **Consulta fiscal automatizada** | Operação que levava **horas** pela API oficial do ERP passou a responder em **11 ms**, lendo a réplica do banco. Decisão tomada por medição, não por preferência |
+| **Saneamento de base** | **1.472 registros** encerrados em **três instâncias** de ERP, cada uma com motivo adequado por tipo — sem forçar regra do sistema |
+| **Mapa de automações de cobrança** | **83 réguas** de disparo mapeadas contra a jornada do cliente. Antes, ninguém sabia dizer quantas eram nem quais estavam ativas |
+| **Bot de vendas no WhatsApp** | CRM próprio com **12 estágios** e **17 regras automáticas**, RBAC por perfil, hub de métricas e reconciliação de vendas fechadas fora do robô |
+| **Análise de inadimplência** | Aging de carteira por segmento — revelou milhões em dívida com **mais de um ano**, invisível no total consolidado |
+
+---
+
+## 🛠️ Stack
+
+### Opero em produção
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### ⚙️ Frameworks & Bibliotecas
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-A30000?style=for-the-badge&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Front-end & Mobile
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-### 🤖 IA & Dados
+### IA, dados & automação
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
-### 🗄️ Bancos de Dados & Backend Services
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+### Também trabalho com
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### 🧰 Ferramentas & Plataformas
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ---
 
-## 🌟 O que tenho construído
+## 🎓 Formação
 
-> Foco recente em **IA aplicada a produto** e **automação de operações**, do back-end à entrega.
+**Análise e Desenvolvimento de Sistemas** — IFPI
+**Técnico em Informática integrado ao Ensino Médio** — IFPI
 
-- 🤖 **Bot de vendas no WhatsApp** — assistente conversacional com IA para qualificação e conversão de leads, integrado a pipeline de CRM.
-- 🧠 **API de validação conversacional (FastAPI)** — múltiplos extratores, lógica de retry e ações em background, integrada a OpenAI Vision/GPT para validação de documentos e estruturação de endereços.
-- 📊 **BI de leads & conversão** — relatórios de funil e métricas de pipeline a partir de datasets operacionais.
-- 🔗 **Integrações de API & SQL** — workflows de cobrança e billing sobre bases PostgreSQL, com automação de régua de cobrança.
-- 🕷️ **Web scraping & data mining** — coleta e mineração de dados em larga escala.
+🏅 Medalhista em **olimpíadas de matemática**, em âmbito nacional e internacional.
 
-<!-- AJUSTE: troque os repos abaixo pelos públicos que melhor representam seu trabalho -->
+> Olimpíada não é sobre matemática: é atacar um problema que você não sabe
+> resolver, com tempo contado e sem consultar a resposta. É a mesma habilidade
+> que se usa às duas da manhã com um serviço fora do ar.
+
+---
+
+## ✍️ Escrevo sobre isso
+
+Casos técnicos de automação e integração em provedores de internet — com o
+raciocínio e a medição por trás de cada decisão:
+
+<a href="https://github.com/darlanvelozo/engenharia-telecom">
+  <img src="https://img.shields.io/badge/📖_engenharia--telecom-0D1117?style=for-the-badge&labelColor=00D9FF&color=0D1117" alt="engenharia-telecom" />
+</a>
+
+<!-- AJUSTE: substitua pelos repositórios públicos que melhor representam seu trabalho -->
 <p align="left">
   <a href="https://github.com/darlanvelozo/web_scraping_jusbrasil">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=darlanvelozo&repo=web_scraping_jusbrasil&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff" alt="web_scraping_jusbrasil" />
@@ -138,17 +153,11 @@ mindset:  "Código limpo, processos otimizados e resultados mensuráveis"
 ## 🌐 Vamos conversar?
 
 <p align="left">
-  <!-- AJUSTE: troque SEU_LINKEDIN pelo seu usuário real -->
-  <a href="https://www.linkedin.com/in/SEU_LINKEDIN/">
+  <a href="https://www.linkedin.com/in/darlan-velozo-81b52020a/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <!-- AJUSTE: troque SEU_EMAIL@exemplo.com -->
-  <a href="mailto:SEU_EMAIL@exemplo.com">
+  <a href="mailto:darlanveloso14@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <!-- AJUSTE: troque 55SEUNUMERO (ex: 5586999998888) -->
-  <a href="https://wa.me/55SEUNUMERO">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
   <a href="https://github.com/darlanvelozo">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
