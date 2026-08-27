@@ -113,40 +113,6 @@ raciocínio e a medição por trás de cada decisão:
   <img src="https://img.shields.io/badge/📖_engenharia--telecom-0D1117?style=for-the-badge&labelColor=00D9FF&color=0D1117" alt="engenharia-telecom" />
 </a>
 
-<!-- AJUSTE: substitua pelos repositórios públicos que melhor representam seu trabalho -->
-<p align="left">
-  <a href="https://github.com/darlanvelozo/web_scraping_jusbrasil">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=darlanvelozo&repo=web_scraping_jusbrasil&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff" alt="web_scraping_jusbrasil" />
-  </a>
-  <a href="https://github.com/darlanvelozo/data_mining">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=darlanvelozo&repo=data_mining&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff" alt="data_mining" />
-  </a>
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=darlanvelozo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darlanvelozo&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=ffffff" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=darlanvelozo&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=darlanvelozo&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
-</p>
-
----
-
-## 📈 Atividade
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=darlanvelozo&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=ffffff&area=true" alt="Activity Graph" />
-</p>
 
 ---
 
@@ -162,10 +128,6 @@ raciocínio e a medição por trás de cada decisão:
   <a href="https://github.com/darlanvelozo">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=darlanvelozo&label=Visitas%20no%20perfil&color=00D9FF&style=for-the-badge" alt="Profile views" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer" alt="footer" />
