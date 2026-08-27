@@ -32,6 +32,10 @@ internet regional** — a parte que não pode cair. Isso significa integrar
 **três instâncias independentes de ERP**, automatizar cobrança que mexe com
 dinheiro de cliente, e manter no ar serviço que a operação usa o dia inteiro.
 
+Em paralelo, construo **produto próprio**: o [Arminda](https://arminda.site),
+SaaS de folha de pagamento para prefeituras, já em produção em dois municípios,
+com eSocial validado no XSD oficial.
+
 Comecei com Django em 2018, no primeiro ano do curso técnico. **Continuo com
 Django em produção hoje** — num mercado que troca de framework a cada dois anos,
 oito anos na mesma stack é profundidade, não inércia.
@@ -50,6 +54,35 @@ oito anos na mesma stack é profundidade, não inércia.
 | **Mapa de automações de cobrança** | **83 réguas** de disparo mapeadas contra a jornada do cliente. Antes, ninguém sabia dizer quantas eram nem quais estavam ativas |
 | **Bot de vendas no WhatsApp** | CRM próprio com **12 estágios** e **17 regras automáticas**, RBAC por perfil, hub de métricas e reconciliação de vendas fechadas fora do robô |
 | **Análise de inadimplência** | Aging de carteira por segmento — revelou milhões em dívida com **mais de um ano**, invisível no total consolidado |
+
+---
+
+## 🧩 Produtos que construí
+
+### [Arminda](https://github.com/darlanvelozo/Arminda_Software) · 🟢 [em produção](https://arminda.site)
+
+**SaaS de folha de pagamento e gestão de pessoal para prefeituras brasileiras** —
+substituto moderno para sistemas legados do setor público, com paridade funcional.
+
+| | |
+|:--|:--|
+| **Escala** | 2 municípios reais em produção, migrados por importador self-service multi-fornecedor |
+| **Conformidade** | eSocial completo até o lote — geração, assinatura, periódicos e transmissão, **validado no XSD oficial contra dado real** |
+| **Arquitetura** | Multi-tenant por schema · Django 5 + DRF · PostgreSQL 16 · Redis + Celery |
+| **Interface** | Vite 5 + React 18 + TypeScript · TailwindCSS + shadcn/ui · TanStack Query |
+| **Qualidade** | **694 testes de backend** (pytest) + 14 de frontend (vitest), verdes · CI no GitHub Actions |
+| **Operação** | VPS própria, HTTPS, gunicorn + Nginx + systemd · [painel público de acompanhamento](https://darlanvelozo.github.io/Arminda_Software/) |
+
+Projeto próprio, do zero, em 11 blocos sequenciais — hoje em `v0.42.0`.
+
+### [BlueMetrics](https://github.com/darlanvelozo/blue_matrics)
+
+**SaaS de inteligência de dados B2B** para empresas que usam o ERP Conta Azul:
+conecta via OAuth2, sincroniza dados financeiros e comerciais, e entrega
+dashboards com insights gerados por IA.
+
+Django 5 + DRF · PostgreSQL 16 com RLS · Next.js 15 + TypeScript · Stripe ·
+Anthropic Claude · Docker · GitHub Actions.
 
 ---
 
@@ -73,8 +106,16 @@ oito anos na mesma stack é profundidade, não inércia.
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
+### Qualidade & entrega
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
 ### IA, dados & automação
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
