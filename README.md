@@ -1,6 +1,6 @@
 <!-- HEADER -->
 <a href="#">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Darlan%20Velozo&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%E2%80%A2%20Automa%C3%A7%C3%A3o%20%26%20Integra%C3%A7%C3%B5es&descAlignY=56&descSize=18" alt="Darlan Velozo" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Darlan%20Velozo&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%E2%80%A2%20Automa%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%B5es&descAlignY=56&descSize=18" alt="Darlan Velozo" />
 </a>
 
 <p align="center">
