@@ -12,13 +12,13 @@
 
 <br>
 
-Sou desenvolvedor **full stack** e trabalho em duas frentes. Na primeira, **projeto produtos SaaS do zero**, com teste, CI e decisões de arquitetura registradas. Dois deles já estão em produção com clientes reais. Na segunda, **opero os sistemas de um provedor de internet regional**: integração com ERP, automação de cobrança, atendimento por WhatsApp e a API que liga tudo isso.
+Sou desenvolvedor **full stack** e trabalho em duas frentes. Na primeira, **projeto produtos SaaS do zero**, com teste, CI e decisões de arquitetura registradas. Dois deles já estão em produção com clientes reais. Na segunda, **desenvolvo para um provedor de internet regional**, com integrações, automações e atendimento automatizado.
 
 Comecei com Django em 2018, aos 15 anos, no técnico do IFPI, e uso a mesma stack em produção até hoje. São oito anos aprofundando uma tecnologia só. Meu método é **medir antes de decidir** e **documentar o que não é óbvio**.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg">
-  <img src="./assets/metrics-light.svg" width="100%" alt="8 anos de Django em produção; 3 SaaS no ar, 2 deles próprios; 694 testes no Arminda; 11 ms onde antes levava horas via API; 3 ERPs integrados na operação.">
+  <img src="./assets/metrics-light.svg" width="100%" alt="8 anos de Django em produção; 3 SaaS no ar, 2 deles próprios; 694 testes no Arminda; 2 prefeituras usando o Arminda; checkout Pix próprio, sem gateway.">
 </picture>
 
 ## Produtos
@@ -68,31 +68,27 @@ Comecei com Django em 2018, aos 15 anos, no técnico do IFPI, e uso a mesma stac
 
 **PDV & Vitrine.** Cada loja se cadastra sozinha e enxerga só os próprios dados. O sistema cobre PDV com leitor de código de barras e pagamento dividido, caixa com sangria e conferência, estoque com custo médio ponderado e extrato auditável, compras, financeiro e relatórios (curva ABC, giro e margem). No checkout Pix, o próprio sistema gera o BR Code estático do Banco Central e o testa contra o exemplo oficial. O estoque fica reservado com `SELECT … FOR UPDATE`, e há testes para a disputa pela última unidade e para o isolamento entre lojas. O changelog e as ADRs são versionados no repositório.
 
-**Hubtrix.** Sou co-desenvolvedor do core de um SaaS multi-tenant usado por vários provedores. Construí o módulo de **Cobrança** (régua de cobrança e reconquista pós-cancelamento) e o de **Analytics** (jornada do bot de vendas e painel comercial). Também tornei a integração com o ERP resiliente: a plataforma não trava mais quando a API cai, e as duplicidades de prospect acabaram. Fiz ainda regras do bot com gating por score de crédito.
+**Hubtrix.** Sou co-desenvolvedor do core de um SaaS multi-tenant usado por vários provedores. Construí o módulo de **Cobrança** (régua de cobrança e reconquista pós-cancelamento) e o de **Analytics** (jornada do bot de vendas e painel comercial). Também trabalho nas integrações com ERP, WhatsApp e provedores de IA.
 
 **BlueMetrics.** Conecta ao ERP Conta Azul via OAuth2 e sincroniza os dados financeiros e comerciais. O isolamento por tenant é feito com Row-Level Security no PostgreSQL 16. Os insights são gerados pelo Claude e a cobrança passa pela Stripe. O front é em Next.js 15, com Docker e GitHub Actions.
 
 </details>
 
-## Impacto em produção
+## O que entrego
 
-Resultados medidos em sistemas de um provedor de internet regional, que a operação usa o dia inteiro.
-
-| | Entrega | Resultado |
-|:-:|:--|:--|
-| 🔐 | **Gateway de API corporativo** | Substituiu uma integração legada **sem controle de acesso**. Hoje tem token em hash por consumidor, escopo por rota, rate limit, log de cada chamada e trava de idempotência |
-| ⚡ | **Consulta fiscal** | Saiu de **horas** pela API oficial do ERP para **11 ms** lendo a réplica. A decisão veio da medição, não de preferência |
-| 🧹 | **Saneamento de base** | **1.472 registros** encerrados em **3 instâncias de ERP**, cada um com o motivo correto para o seu tipo |
-| 📬 | **Automações de cobrança** | **83 réguas** mapeadas contra a jornada do cliente. Antes, ninguém sabia quantas eram nem quais estavam ativas |
-| 🤖 | **Bot de vendas no WhatsApp** | CRM com **12 estágios** e **17 regras automáticas**, RBAC por perfil e reconciliação das vendas fechadas fora do robô |
-| 📉 | **Inadimplência** | O aging por segmento mostrou a dívida com **mais de um ano**, que o total consolidado escondia |
+- **Produtos SaaS do zero ao deploy**: multi-tenant, autenticação e permissões, cobrança, testes, CI e operação em servidor próprio.
+- **Integrações com ERPs e APIs de terceiros**: sincronização de dados, gateways de API com controle de acesso e documentação.
+- **Automação de processos**: rotinas agendadas, réguas de comunicação e bots de atendimento e vendas no WhatsApp.
+- **IA aplicada a produto**: LLMs para geração de insights, validação de documentos e assistentes conversacionais.
+- **Dados e BI**: dashboards, indicadores comerciais e financeiros, análise de funil e carteira.
+- **Conformidade brasileira**: eSocial, Pix (BR Code) e regras de folha do setor público.
 
 ## Onde colaboro
 
 <table>
   <tr>
     <td width="72" align="center"><a href="https://github.com/Megalink-Telecom"><img src="https://github.com/Megalink-Telecom.png?size=96" width="48" alt="Megalink Telecom"></a></td>
-    <td><b><a href="https://github.com/Megalink-Telecom">Megalink Telecom</a></b> · time de desenvolvimento<br><sub>Faço features e revisão de PRs no monorepo da plataforma interna, com cerca de 25 serviços atrás de um SSO. Exemplos: visões de faturamento, campanha de refidelização automática, cadastro de parceiros ligado ao ERP e alertas de queda em massa.</sub></td>
+    <td><b><a href="https://github.com/Megalink-Telecom">Megalink Telecom</a></b> · time de desenvolvimento<br><sub>Desenvolvo funcionalidades e reviso PRs da plataforma interna da empresa.</sub></td>
   </tr>
   <tr>
     <td align="center">🚀</td>
@@ -133,7 +129,7 @@ Também uso **engenharia assistida por IA** no dia a dia. Montei um painel de re
 
 Escrevo casos técnicos de integração em provedores de internet, sempre na estrutura **problema → medição → decisão → resultado**.
 
-- [**Quando a API oficial é o caminho errado**](https://github.com/darlanvelozo/engenharia-telecom/blob/main/artigos/api-oficial-caminho-errado.md). Horas contra 11 ms, e o atalho que errava em 1,3% dos casos.
+- [**Quando a API oficial é o caminho errado**](https://github.com/darlanvelozo/engenharia-telecom/blob/main/artigos/api-oficial-caminho-errado.md). Como decidir o caminho de uma integração medindo, e não por preferência.
 - [**Sua documentação de API conta demais**](https://github.com/darlanvelozo/engenharia-telecom/blob/main/artigos/documentacao-por-escopo.md). Como filtrar a documentação pelo escopo do token.
 
 <br>

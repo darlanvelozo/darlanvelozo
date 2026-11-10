@@ -106,8 +106,8 @@ METRICS = [
     ("8 anos", "de Django em produção"),
     ("3", "SaaS no ar · 2 próprios"),
     ("694", "testes no Arminda"),
-    ("11 ms", "antes: horas via API"),
-    ("3 ERPs", "integrados na operação"),
+    ("2", "prefeituras no Arminda"),
+    ("Pix", "checkout sem gateway"),
 ]
 
 
