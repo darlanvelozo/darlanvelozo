@@ -1,174 +1,146 @@
-<!-- HEADER -->
-<a href="#">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Darlan%20Velozo&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%E2%80%A2%20Automa%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%B5es&descAlignY=56&descSize=18" alt="Darlan Velozo" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img src="./assets/banner-light.svg" width="100%" alt="Darlan Velozo — Full Stack Developer. Construo produtos SaaS e opero sistemas que não podem cair.">
+</picture>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&color=00D9FF&center=true&vCenter=true&width=760&lines=Full+Stack+Developer+%E2%80%A2+Python%2FDjango+%E2%80%A2+Next.js;Automa%C3%A7%C3%A3o+e+integra%C3%A7%C3%B5es+em+produ%C3%A7%C3%A3o;IA+aplicada%3A+bots%2C+vis%C3%A3o+computacional+e+extra%C3%A7%C3%A3o;Django+desde+2018+%E2%80%94+e+ainda+em+produ%C3%A7%C3%A3o+hoje" alt="Typing SVG" />
-  </a>
+  <a href="https://arminda.site"><img src="https://img.shields.io/badge/arminda.site-em_produção-2ea043?style=flat-square&labelColor=0d1117" alt="arminda.site em produção"></a>
+  <a href="https://www.linkedin.com/in/darlan-velozo-81b52020a/"><img src="https://img.shields.io/badge/LinkedIn-Darlan_Velozo-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn"></a>
+  <a href="mailto:darlanveloso14@gmail.com"><img src="https://img.shields.io/badge/E--mail-darlanveloso14@gmail.com-22d3ee?style=flat-square&logo=gmail&logoColor=white&labelColor=0d1117" alt="E-mail"></a>
+  <a href="https://github.com/darlanvelozo/engenharia-telecom"><img src="https://img.shields.io/badge/Artigos-engenharia--telecom-a78bfa?style=flat-square&logo=readdotcv&logoColor=white&labelColor=0d1117" alt="Artigos"></a>
 </p>
 
----
+<br>
 
-## 🚀 Sobre mim
+Sou desenvolvedor **full stack** e trabalho em duas frentes. Na primeira, **projeto produtos SaaS do zero**, com teste, CI e decisões de arquitetura registradas. Dois deles já estão em produção com clientes reais. Na segunda, **opero os sistemas de um provedor de internet regional**: integração com ERP, automação de cobrança, atendimento por WhatsApp e a API que liga tudo isso.
 
-```yaml
-name:     "Darlan Velozo"
-role:     "Full Stack Developer (Pleno)"
-location: "Teresina, Piauí — Brasil 🇧🇷"
-since:    "2018 — primeiro certificado em Django no IFPI, aos 15 anos"
-focus:
-  - "Automação de operações e integrações de API em produção"
-  - "IA aplicada a produto (chatbots, Vision/GPT, validação documental)"
-  - "CRM, cobrança e funis de conversão"
-  - "Full Stack — Python/Django, React/Next.js, Node.js"
-stack_atual: "Django · DRF · FastAPI · Next.js · PostgreSQL · OpenAI"
-mindset:  "Medir antes de decidir. Documentar o que não é óbvio."
-```
+Comecei com Django em 2018, aos 15 anos, no técnico do IFPI, e uso a mesma stack em produção até hoje. São oito anos aprofundando uma tecnologia só. Meu método é **medir antes de decidir** e **documentar o que não é óbvio**.
 
-Construo e opero os sistemas que sustentam a operação de um **provedor de
-internet regional** — a parte que não pode cair. Isso significa integrar
-**três instâncias independentes de ERP**, automatizar cobrança que mexe com
-dinheiro de cliente, e manter no ar serviço que a operação usa o dia inteiro.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/metrics-dark.svg">
+  <img src="./assets/metrics-light.svg" width="100%" alt="8 anos de Django em produção; 3 SaaS no ar, 2 deles próprios; 694 testes no Arminda; 11 ms onde antes levava horas via API; 3 ERPs integrados na operação.">
+</picture>
 
-Em paralelo, construo **produto próprio**: o [Arminda](https://arminda.site),
-SaaS de folha de pagamento para prefeituras, já em produção em dois municípios,
-com eSocial validado no XSD oficial.
+## Produtos
 
-Comecei com Django em 2018, no primeiro ano do curso técnico. **Continuo com
-Django em produção hoje** — num mercado que troca de framework a cada dois anos,
-oito anos na mesma stack é profundidade, não inércia.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://arminda.site">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-arminda-dark.svg">
+          <img src="./assets/card-arminda-light.svg" width="100%" alt="Arminda — folha de pagamento e RH para prefeituras. Em produção em 2 municípios; eSocial validado no XSD oficial; multi-tenant por schema, 694 testes, CI.">
+        </picture>
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/darlanvelozo/Vape_project">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-vape-dark.svg">
+          <img src="./assets/card-vape-light.svg" width="100%" alt="PDV & Vitrine — SaaS de varejo multi-loja. PDV, caixa, estoque e vitrine online; checkout Pix sem gateway; reserva de estoque com lock de linha.">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/card-hubtrix-dark.svg">
+        <img src="./assets/card-hubtrix-light.svg" width="100%" alt="Hubtrix — CRM, marketing e CS para provedores de internet. 190+ commits no core; módulos de Cobrança e Analytics; integração com ERP, WhatsApp e LLMs.">
+      </picture>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/darlanvelozo/blue_matrics">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/card-bluemetrics-dark.svg">
+          <img src="./assets/card-bluemetrics-light.svg" width="100%" alt="BlueMetrics — BI B2B sobre o ERP Conta Azul. OAuth2, Row-Level Security, insights por IA, Stripe.">
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
----
+<details>
+<summary><b>Detalhes técnicos de cada produto</b></summary>
+<br>
 
-## 🎯 O que já entreguei
+**Arminda.** É um substituto moderno para os sistemas legados de folha do setor público, com paridade funcional. Prefeituras migram sozinhas por um importador self-service que aceita vários fornecedores de origem. O eSocial está completo até o lote: geração, assinatura, eventos periódicos e transmissão. Cada município fica num schema próprio do PostgreSQL. O cálculo assíncrono roda em Celery + Redis. O front usa Vite, React 18, TypeScript, shadcn/ui e TanStack Query. A aplicação roda em VPS própria com gunicorn, Nginx e systemd. O projeto foi construído em 11 blocos sequenciais e está na `v0.42`.
 
-> Resultados medidos, em sistemas que estão no ar.
+**PDV & Vitrine.** Cada loja se cadastra sozinha e enxerga só os próprios dados. O sistema cobre PDV com leitor de código de barras e pagamento dividido, caixa com sangria e conferência, estoque com custo médio ponderado e extrato auditável, compras, financeiro e relatórios (curva ABC, giro e margem). No checkout Pix, o próprio sistema gera o BR Code estático do Banco Central e o testa contra o exemplo oficial. O estoque fica reservado com `SELECT … FOR UPDATE`, e há testes para a disputa pela última unidade e para o isolamento entre lojas. O changelog e as ADRs são versionados no repositório.
 
-| Entrega | Resultado |
+**Hubtrix.** Sou co-desenvolvedor do core de um SaaS multi-tenant usado por vários provedores. Construí o módulo de **Cobrança** (régua de cobrança e reconquista pós-cancelamento) e o de **Analytics** (jornada do bot de vendas e painel comercial). Também tornei a integração com o ERP resiliente: a plataforma não trava mais quando a API cai, e as duplicidades de prospect acabaram. Fiz ainda regras do bot com gating por score de crédito.
+
+**BlueMetrics.** Conecta ao ERP Conta Azul via OAuth2 e sincroniza os dados financeiros e comerciais. O isolamento por tenant é feito com Row-Level Security no PostgreSQL 16. Os insights são gerados pelo Claude e a cobrança passa pela Stripe. O front é em Next.js 15, com Docker e GitHub Actions.
+
+</details>
+
+## Impacto em produção
+
+Resultados medidos em sistemas de um provedor de internet regional, que a operação usa o dia inteiro.
+
+| | Entrega | Resultado |
+|:-:|:--|:--|
+| 🔐 | **Gateway de API corporativo** | Substituiu uma integração legada **sem controle de acesso**. Hoje tem token em hash por consumidor, escopo por rota, rate limit, log de cada chamada e trava de idempotência |
+| ⚡ | **Consulta fiscal** | Saiu de **horas** pela API oficial do ERP para **11 ms** lendo a réplica. A decisão veio da medição, não de preferência |
+| 🧹 | **Saneamento de base** | **1.472 registros** encerrados em **3 instâncias de ERP**, cada um com o motivo correto para o seu tipo |
+| 📬 | **Automações de cobrança** | **83 réguas** mapeadas contra a jornada do cliente. Antes, ninguém sabia quantas eram nem quais estavam ativas |
+| 🤖 | **Bot de vendas no WhatsApp** | CRM com **12 estágios** e **17 regras automáticas**, RBAC por perfil e reconciliação das vendas fechadas fora do robô |
+| 📉 | **Inadimplência** | O aging por segmento mostrou a dívida com **mais de um ano**, que o total consolidado escondia |
+
+## Onde colaboro
+
+<table>
+  <tr>
+    <td width="72" align="center"><a href="https://github.com/Megalink-Telecom"><img src="https://github.com/Megalink-Telecom.png?size=96" width="48" alt="Megalink Telecom"></a></td>
+    <td><b><a href="https://github.com/Megalink-Telecom">Megalink Telecom</a></b> · time de desenvolvimento<br><sub>Faço features e revisão de PRs no monorepo da plataforma interna, com cerca de 25 serviços atrás de um SSO. Exemplos: visões de faturamento, campanha de refidelização automática, cadastro de parceiros ligado ao ERP e alertas de queda em massa.</sub></td>
+  </tr>
+  <tr>
+    <td align="center">🚀</td>
+    <td><b>Hubtrix</b> · co-desenvolvedor do core<br><sub>Tenho 190+ commits num SaaS multi-tenant para provedores (Django 5.2, Channels, WebSocket, integração com LLMs).</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/CONSULTECHPI"><img src="https://github.com/CONSULTECHPI.png?size=96" width="48" alt="CONSULTECHPI"></a></td>
+    <td><b><a href="https://github.com/CONSULTECHPI">CONSULTECHPI</a></b> · admin<br><sub>Consultoria em tecnologia. Responsável pelo site institucional.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/jobstechorg"><img src="https://github.com/jobstechorg.png?size=96" width="48" alt="jobstechorg"></a></td>
+    <td><b><a href="https://github.com/jobstechorg">jobstechorg</a></b> · admin<br><sub>Ferramentas de atendimento.</sub></td>
+  </tr>
+</table>
+
+Também uso **engenharia assistida por IA** no dia a dia. Montei um painel de revisão de PRs que roda o Claude Code headless, em modo somente leitura, num worktree descartável. Ele confronta a especificação com o diff e só permite aprovar o commit exato que foi analisado.
+
+## Stack
+
+| Profundidade | Tecnologias |
 |:--|:--|
-| **Gateway de API corporativo** | Substituiu uma integração legada **sem controle de acesso**, cujo código estava versionado em repositório público com credenciais em texto puro. Hoje: token por consumidor em hash, escopo por rota, rate limit, log de toda chamada e trava de idempotência |
-| **Consulta fiscal automatizada** | Operação que levava **horas** pela API oficial do ERP passou a responder em **11 ms**, lendo a réplica do banco. Decisão tomada por medição, não por preferência |
-| **Saneamento de base** | **1.472 registros** encerrados em **três instâncias** de ERP, cada uma com motivo adequado por tipo — sem forçar regra do sistema |
-| **Mapa de automações de cobrança** | **83 réguas** de disparo mapeadas contra a jornada do cliente. Antes, ninguém sabia dizer quantas eram nem quais estavam ativas |
-| **Bot de vendas no WhatsApp** | CRM próprio com **12 estágios** e **17 regras automáticas**, RBAC por perfil, hub de métricas e reconciliação de vendas fechadas fora do robô |
-| **Análise de inadimplência** | Aging de carteira por segmento — revelou milhões em dívida com **mais de um ano**, invisível no total consolidado |
+| **Opero em produção** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![DRF](https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
+| **Front-end** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D) |
+| **Qualidade & entrega** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black) |
+| **IA & integrações** | ![Anthropic](https://img.shields.io/badge/Claude-191919?style=flat-square&logo=anthropic&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white) ![WhatsApp](https://img.shields.io/badge/WhatsApp_API-25D366?style=flat-square&logo=whatsapp&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
+| **Também uso** | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) |
 
----
+## Trajetória
 
-## 🧩 Produtos que construí
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
+  <img src="./assets/timeline-light.svg" width="100%" alt="2018: Técnico em Informática no IFPI e 1º certificado em Django. Medalhista em olimpíadas de matemática, nacionais e internacionais. Graduação em Análise e Desenvolvimento de Sistemas no IFPI. Produção: sistemas de um provedor de internet. Hoje: produtos SaaS próprios.">
+</picture>
 
-### [Arminda](https://github.com/darlanvelozo/Arminda_Software) · 🟢 [em produção](https://arminda.site)
+> Olimpíada não é sobre matemática. É atacar um problema que você não sabe resolver, com tempo contado e sem consultar a resposta. É a mesma habilidade que se usa às duas da manhã com um serviço fora do ar.
 
-**SaaS de folha de pagamento e gestão de pessoal para prefeituras brasileiras** —
-substituto moderno para sistemas legados do setor público, com paridade funcional.
+## Escrevo sobre isso
 
-| | |
-|:--|:--|
-| **Escala** | 2 municípios reais em produção, migrados por importador self-service multi-fornecedor |
-| **Conformidade** | eSocial completo até o lote — geração, assinatura, periódicos e transmissão, **validado no XSD oficial contra dado real** |
-| **Arquitetura** | Multi-tenant por schema · Django 5 + DRF · PostgreSQL 16 · Redis + Celery |
-| **Interface** | Vite 5 + React 18 + TypeScript · TailwindCSS + shadcn/ui · TanStack Query |
-| **Qualidade** | **694 testes de backend** (pytest) + 14 de frontend (vitest), verdes · CI no GitHub Actions |
-| **Operação** | VPS própria, HTTPS, gunicorn + Nginx + systemd · [painel público de acompanhamento](https://darlanvelozo.github.io/Arminda_Software/) |
+Escrevo casos técnicos de integração em provedores de internet, sempre na estrutura **problema → medição → decisão → resultado**.
 
-Projeto próprio, do zero, em 11 blocos sequenciais — hoje em `v0.42.0`.
+- [**Quando a API oficial é o caminho errado**](https://github.com/darlanvelozo/engenharia-telecom/blob/main/artigos/api-oficial-caminho-errado.md). Horas contra 11 ms, e o atalho que errava em 1,3% dos casos.
+- [**Sua documentação de API conta demais**](https://github.com/darlanvelozo/engenharia-telecom/blob/main/artigos/documentacao-por-escopo.md). Como filtrar a documentação pelo escopo do token.
 
-### [BlueMetrics](https://github.com/darlanvelozo/blue_matrics)
+<br>
 
-**SaaS de inteligência de dados B2B** para empresas que usam o ERP Conta Azul:
-conecta via OAuth2, sincroniza dados financeiros e comerciais, e entrega
-dashboards com insights gerados por IA.
-
-Django 5 + DRF · PostgreSQL 16 com RLS · Next.js 15 + TypeScript · Stripe ·
-Anthropic Claude · Docker · GitHub Actions.
-
----
-
-## 🛠️ Stack
-
-### Opero em produção
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/DRF-A30000?style=for-the-badge&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### Front-end & Mobile
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-
-### Qualidade & entrega
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### IA, dados & automação
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-
-### Também trabalho com
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
----
-
-## 🎓 Formação
-
-**Análise e Desenvolvimento de Sistemas** — IFPI
-**Técnico em Informática integrado ao Ensino Médio** — IFPI
-
-🏅 Medalhista em **olimpíadas de matemática**, em âmbito nacional e internacional.
-
-> Olimpíada não é sobre matemática: é atacar um problema que você não sabe
-> resolver, com tempo contado e sem consultar a resposta. É a mesma habilidade
-> que se usa às duas da manhã com um serviço fora do ar.
-
----
-
-## ✍️ Escrevo sobre isso
-
-Casos técnicos de automação e integração em provedores de internet — com o
-raciocínio e a medição por trás de cada decisão:
-
-<a href="https://github.com/darlanvelozo/engenharia-telecom">
-  <img src="https://img.shields.io/badge/📖_engenharia--telecom-0D1117?style=for-the-badge&labelColor=00D9FF&color=0D1117" alt="engenharia-telecom" />
-</a>
-
-
----
-
-## 🌐 Vamos conversar?
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/darlan-velozo-81b52020a/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:darlanveloso14@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/darlanvelozo">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
+<p align="center">
+  <sub>Teresina, Piauí · aberto a conversas sobre produto, integrações e consultoria</sub><br>
+  <a href="https://www.linkedin.com/in/darlan-velozo-81b52020a/">LinkedIn</a> ·
+  <a href="mailto:darlanveloso14@gmail.com">E-mail</a> ·
+  <a href="https://arminda.site">arminda.site</a>
 </p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer" alt="footer" />
